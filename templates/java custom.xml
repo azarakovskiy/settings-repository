@@ -1,0 +1,7 @@
+<templateSet group="java custom">
+  <template name="emp" value="Optional.empty()" description="Optional.empty()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

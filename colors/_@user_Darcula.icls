@@ -1,0 +1,20 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-05-03T09:56:08</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2018.1.2.0.0</property>
+    <property name="modified">2018-05-04T15:07:55</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <colors>
+    <option name="CARET_ROW_COLOR" value="494949" />
+  </colors>
+  <attributes>
+    <option name="EXECUTIONPOINT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ebf8ff" />
+        <option name="BACKGROUND" value="1d4972" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

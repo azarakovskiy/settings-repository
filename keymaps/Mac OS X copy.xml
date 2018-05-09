@@ -1,0 +1,26 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="ctrl meta m" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta help" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="SafeDelete" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+</keymap>
