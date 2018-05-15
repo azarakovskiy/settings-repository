@@ -10,6 +10,7 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="Exit" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl meta m" />
   </action>
