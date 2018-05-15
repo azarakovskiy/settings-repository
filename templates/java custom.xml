@@ -12,4 +12,12 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="it" value="com.mscharhag.oleaster.runner.StaticRunnerSupport.it(&quot;$DESCRIPTION$&quot;, () -&gt; {&#10;  //given&#10;  &#10;  //when&#10;  $WHEN$&#10;  &#10;  //then&#10;  $END$&#10;});" description="Oleaster Test case" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
