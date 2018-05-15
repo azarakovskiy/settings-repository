@@ -1,7 +1,15 @@
 <templateSet group="java custom">
-  <template name="emp" value="Optional.empty()" description="Optional.empty()" toReformat="false" toShortenFQNames="true">
+  <template name="oe" value="java.util.Optional.empty()" description="Optional.empty()" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="org.junit.Assert.assertEquals($EXPECTED$, $ACTUAL$);" description="JUnit assertEquals" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="EXPECTED" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
+    <variable name="ACTUAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
