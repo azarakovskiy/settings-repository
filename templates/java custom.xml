@@ -20,4 +20,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="af" value="org.junit.Assert.assertFalse($WHAT_IS_FALSE$);" description="JUnit assertFalse" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="WHAT_IS_FALSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
