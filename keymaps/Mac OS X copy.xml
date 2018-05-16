@@ -3,12 +3,6 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta space" />
   </action>
-  <action id="EditorDeleteToWordEnd">
-    <keyboard-shortcut first-keystroke="meta delete" />
-  </action>
-  <action id="EditorDeleteToWordStart">
-    <keyboard-shortcut first-keystroke="meta back_space" />
-  </action>
   <action id="EditorSplitLine" />
   <action id="Exit" />
   <action id="ExtractMethod">
