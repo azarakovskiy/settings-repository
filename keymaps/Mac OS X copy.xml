@@ -5,9 +5,6 @@
   </action>
   <action id="EditorSplitLine" />
   <action id="Exit" />
-  <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="ctrl meta m" />
-  </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
