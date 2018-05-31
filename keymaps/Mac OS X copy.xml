@@ -20,6 +20,6 @@
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
-    <keyboard-shortcut first-keystroke="minus" second-keystroke="minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
 </keymap>

@@ -28,4 +28,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="test" value="@org.junit.Test&#10;public void $TEST_NAME$() {&#10;    //given&#10;&#10;    //when&#10;    $END$&#10;    &#10;    //then&#10;    &#10;}" description="JUnit test" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
