@@ -50,6 +50,10 @@
           <option name="url" value="git@github.com:FashionTrade/core-entities-library.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:FashionTrade/brand-account-management-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Projects/FashionTrade" />
