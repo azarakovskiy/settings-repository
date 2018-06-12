@@ -19,7 +19,16 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="meta numpad2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta numpad6" />
+  </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="meta numpad5" />
   </action>
 </keymap>
