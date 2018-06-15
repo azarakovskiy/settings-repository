@@ -1,10 +1,7 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java">
-        <added pattern="com.fashiontrade.service.connection.elasticsearch.DisambiguationUtilTest.getOrganization(expectedExternalOrganizationId,externalCustomerId,name,emailAddress,website,phoneNumber,vatNumber)" />
-        <added pattern="com.fashiontrade.service.connection.elasticsearch.DisambiguationUtilTest.getConnection(name,emailAddress,website,externalOrganizationId,vatNumber)" />
-      </blacklist>
+      <blacklist language="Java" />
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
     </blacklists>

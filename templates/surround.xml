@@ -2,4 +2,12 @@
   <template name="EM" value="&lt;!-- @formatter:off --&gt;&#10;&#10;$SELECTION$&#10;&lt;!-- @formatter:on --&gt;&#10;" description="Surround with @formatter:off/on comment" toReformat="false" toShortenFQNames="false">
     <context />
   </template>
+  <template name="M" value="$END$$METHOD_NAME$($SELECTION$)" description="Surround with a method call" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
