@@ -1,5 +1,8 @@
 <application>
   <component name="DebuggerSettings">
+    <capture-points>
+      <capture-point class-name="java.util.concurrent.CompletableFuture" method-name="thenApply" />
+    </capture-points>
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
