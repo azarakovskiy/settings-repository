@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="java">
+      <display-name>StringUtils.removeAll (org.apache.commons.lang3)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("removeAll").withParameters("java.lang.String", "java.lang.String").definedInClass("org.apache.commons.lang3.StringUtils"))]]></place>
+    </injection>
+  </component>
+</application>
