@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="kubectl" />
       <option name="PARAMETERS" value="proxy --port=8081 &amp;" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
