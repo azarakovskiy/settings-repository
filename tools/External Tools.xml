@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="k8s proxy" description="Kubernetis proxy for Gatekit" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="kubectl" />
+      <option name="PARAMETERS" value="proxy --port=8081 &amp;" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+</toolSet>
