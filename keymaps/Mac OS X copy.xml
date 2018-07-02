@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta space" />
