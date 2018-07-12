@@ -70,6 +70,10 @@
           <option name="url" value="git@github.com:FashionTrade/slack-bot-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:FashionTrade/zalando-importer.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Projects/FashionTrade" />
