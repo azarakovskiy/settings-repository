@@ -5,8 +5,9 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("compilePattern").withParameters("com.google.common.collect.ImmutableList", "java.lang.String").definedInClass("com.fashiontrade.service.connection.ConnectionServiceConfiguration"))]]></place>
     </injection>
     <injection language="RegExp" injector-id="java">
-      <display-name>StringUtils.removeAll (org.apache.commons.lang3)</display-name>
+      <display-name>StringUtils (org.apache.commons.lang3)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("removeAll").withParameters("java.lang.String", "java.lang.String").definedInClass("org.apache.commons.lang3.StringUtils"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("replaceAll").withParameters("java.lang.String", "java.lang.String", "java.lang.String").definedInClass("org.apache.commons.lang3.StringUtils"))]]></place>
     </injection>
   </component>
 </application>
