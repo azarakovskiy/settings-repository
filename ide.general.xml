@@ -7,5 +7,6 @@
     <entry key="documentation.show.toolbar" value="true" />
     <entry key="debugger.click.disable.breakpoints" value="true" />
     <entry key="SBT.system.in.process" value="true" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>
