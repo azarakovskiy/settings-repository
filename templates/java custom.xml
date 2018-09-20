@@ -1,5 +1,5 @@
 <templateSet group="java custom">
-  <template name="oe" value="java.util.Optional.empty()" description="Optional.empty()" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="oe" value="java.util.Optional.empty()" description="Optional.empty()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
@@ -34,7 +34,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="IL" value="ImmutableList.of($SELECTION$$END$)" description="ImmutableList.of()" toReformat="true" toShortenFQNames="true">
+  <template name="lo" value="ImmutableList.of($SELECTION$$END$)" description="ImmutableList.of()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
@@ -49,7 +49,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="re" value="return $END$;" description="return" toReformat="false" toShortenFQNames="true">
+  <template name="qq" value="return $END$;" description="return" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -64,6 +64,13 @@
       <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_STATEMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="oo" value="java.util.Optional.of($END$)" description="Optional.of()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
