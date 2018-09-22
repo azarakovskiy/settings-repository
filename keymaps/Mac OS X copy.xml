@@ -10,7 +10,6 @@
   <action id="Exit" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta help" />
   </action>
   <action id="QuickJavaDoc">
