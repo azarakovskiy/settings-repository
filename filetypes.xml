@@ -12,6 +12,7 @@
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".zsh_config" type="PLAIN_TEXT" />
+      <mapping ext="config" type="Properties" />
     </extensionMap>
   </component>
 </application>
