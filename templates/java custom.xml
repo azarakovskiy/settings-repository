@@ -73,4 +73,18 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="test5" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;$TEST_DESC$&quot;)&#10;public void $TEST_NAME$() {&#10;  //given&#10;&#10;  //when&#10;  $END$&#10;    &#10;  //then&#10;    &#10;}" description="JUnit 5 test" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEST_NAME" expression="camelCase(TEST_DESC)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="tss" value="@org.junit.jupiter.api.Nested&#10;@org.junit.jupiter.api.DisplayName(&quot;$GROUP_DESC$&quot;)&#10;class $GROUP_NAME$ {&#10;  test5$END$&#10;}&#10;" description="Nested tests in JUnit 5" toReformat="false" toShortenFQNames="true">
+    <variable name="GROUP_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GROUP_NAME" expression="capitalize(camelCase(GROUP_DESC))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
