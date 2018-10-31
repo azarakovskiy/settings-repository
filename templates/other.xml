@@ -1,0 +1,9 @@
+<templateSet group="other">
+  <template name="uid" value="$F$$L$$L$$L$$L$$L$$L$$L$-$L$$L$$L$$L$-$L$$L$$L$$L$-$L$$L$$L$$L$-$L$$L$$L$$L$$L$$L$$L$$L$$L$$L$$L$$L$" description="Generate UUID" toReformat="false" toShortenFQNames="true">
+    <variable name="F" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="L" expression="F" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
