@@ -1,18 +1,6 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="EvaluateExpression" is_action="true" action_type="-1" position="11">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Debugger" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="Stop" is_action="true" action_type="-1" position="3">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Debugger" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Pause" is_action="true" action_type="-1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Debugger" />
@@ -28,6 +16,13 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FileStructurePopup" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd key" />
       <option name="myInitialPosition" value="-1" />
     </group>
   </component>
