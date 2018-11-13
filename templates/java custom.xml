@@ -6,13 +6,6 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ae" value="org.junit.Assert.assertEquals($EXPECTED$, $ACTUAL$);" description="JUnit assertEquals" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="EXPECTED" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
-    <variable name="ACTUAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="it" value="com.mscharhag.oleaster.runner.StaticRunnerSupport.it(&quot;$DESCRIPTION$&quot;, () -&gt; {&#10;  //given&#10;  &#10;  //when&#10;  $WHEN$&#10;  &#10;  //then&#10;  $END$&#10;});" description="Oleaster Test case" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="WHEN" expression="" defaultValue="" alwaysStopAt="true" />
@@ -21,38 +14,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="af" value="org.junit.Assert.assertFalse($WHAT_IS_FALSE$);" description="JUnit assertFalse" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="WHAT_IS_FALSE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="test" value="@org.junit.Test&#10;public void $TEST_NAME$() {&#10;    //given&#10;&#10;    //when&#10;    $END$&#10;    &#10;    //then&#10;    &#10;}" description="JUnit test" toReformat="false" toShortenFQNames="true">
+  <template name="test4" value="@org.junit.Test&#10;public void $TEST_NAME$() {&#10;    //given&#10;&#10;    //when&#10;    $END$&#10;    &#10;    //then&#10;    &#10;}" description="JUnit test" toReformat="false" toShortenFQNames="true">
     <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="lo" value="ImmutableList.of($SELECTION$$END$)" description="ImmutableList.of()" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="ILB" value="new ImmutableList.Builder&lt;$GENERIC_TYPE$&gt;()$END$" description="new ImmutableList.Builder()" toReformat="false" toShortenFQNames="true">
-    <variable name="GENERIC_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="qq" value="return $END$;" description="return" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name=".col" value=".collect(ImmutableList.toImmutableList())" description="Collection to IL" toReformat="false" toShortenFQNames="true">
@@ -73,7 +38,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="test5" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;$TEST_DESC$&quot;)&#10;public void $TEST_NAME$() {&#10;  //given&#10;&#10;  //when&#10;  $END$&#10;    &#10;  //then&#10;    &#10;}" description="JUnit 5 test" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;$TEST_DESC$&quot;)&#10;void $TEST_NAME$() {&#10;  //given&#10;&#10;  //when&#10;  $END$&#10;    &#10;  //then&#10;    &#10;}" description="JUnit 5 test" toReformat="false" toShortenFQNames="true">
     <variable name="TEST_DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEST_NAME" expression="camelCase(TEST_DESC)" defaultValue="" alwaysStopAt="false" />
     <context>
