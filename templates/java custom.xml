@@ -59,8 +59,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lo" value="ImmutableList.of($OF$)$END$" description="ImmutableList of()" toReformat="false" toShortenFQNames="true">
-    <variable name="OF" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="lo" value="ImmutableList.of($END$)" description="ImmutableList of()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
