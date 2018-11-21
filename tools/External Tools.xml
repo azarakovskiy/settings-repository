@@ -6,4 +6,18 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="Docker compose rm -f" description="Docker compose rm -f" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker-compose" />
+      <option name="PARAMETERS" value="rm -f" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Projects/FashionTrade" />
+    </exec>
+  </tool>
+  <tool name="Docker compose stop" description="Docker compose stop" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker-compose" />
+      <option name="PARAMETERS" value="stop" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Projects/FashionTrade" />
+    </exec>
+  </tool>
 </toolSet>
