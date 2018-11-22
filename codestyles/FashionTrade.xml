@@ -1,5 +1,6 @@
 <code_scheme name="FashionTrade" version="173">
   <option name="RIGHT_MARGIN" value="150" />
+  <option name="SOFT_MARGINS" value="180" />
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
