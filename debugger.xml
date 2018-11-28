@@ -80,6 +80,19 @@
       <option name="INCLUDE" value="true" />
     </filter>
   </component>
+  <component name="NodeRendererSettings">
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.fashiontrade.service.connection.entities.datastore.DsConnection" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.fashiontrade.service.connection.entities.datastore.DsConnection" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.fashiontrade.service.connection.entities.datastore.DsConnection" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general>
