@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="es_client_merged_orgs_shop_query" type="PLAIN_TEXT" />
       <mapping pattern=".zsh_config" type="PLAIN_TEXT" />
       <mapping ext="config" type="Properties" />
       <mapping ext="fnc" type="DBN-PSQL" />
