@@ -4,7 +4,7 @@
     <property name="created">2019-03-29T16:25:57</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-04-02T13:45:27</property>
+    <property name="modified">2019-04-02T15:19:29</property>
     <property name="originalScheme">Material Solarized Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1602,7 +1602,7 @@
     </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="5a80e" />
       </value>
     </option>
     <option name="JAVA_DOC_TAG">
@@ -29711,7 +29711,7 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d33682" />
+        <option name="FOREGROUND" value="a9325c" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
@@ -30175,7 +30175,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="ff3431" />
       </value>
     </option>
     <option name="Wrong number">
