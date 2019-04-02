@@ -43,7 +43,4 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="meta numpad5" />
   </action>
-  <action id="tasks.create.changelist">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
-  </action>
 </keymap>
