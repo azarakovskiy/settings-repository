@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
@@ -12,6 +11,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="slides" type="PLAIN_TEXT" />
       <mapping pattern="es_client_merged_orgs_shop_query" type="PLAIN_TEXT" />
       <mapping pattern=".zsh_config" type="PLAIN_TEXT" />
